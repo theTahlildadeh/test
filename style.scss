@@ -1,0 +1,23 @@
+body {
+    margin: 1em;
+    background-color: whitesmoke;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0 2em;
+
+    >div {
+        background-color: grey;
+    }
+}
+
+.book {
+    display: flex;
+    gap: 1em;
+
+    img {
+        width: 10em;
+    }
+}
